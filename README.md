@@ -19,32 +19,33 @@ sudo npm install -g bower
 sudo npm install -g gulp
 ```
 
-#####3 - Clone this project
 
-#####4 - cd to API and do npm install
+#####3 - Fork this project to Github
+#####4- Clone this project
+#####5 - cd to API and do npm install
 ```
 cd api
 npm install
 ```
 
-#####5 - cd to app and install dependencies
+#####6 - cd .. then cd to app and install dependencies
 ```
 cd app
 npm install
 bower install
 ```
-
-#####6 - run api
+Open two terminal windows in WS
+#####7 - run api in one window
 ```
 cd api
 node server
 ```
 
-#####7 - run app
+#####8 - run app in the other
 ```
 cd app
 gulp
 ```
 
-#####8 - your app is now runing at `http://localhost:9003/#/wines`
+#####8 - your app is now running at `http://localhost:9003/#/wines`
 
