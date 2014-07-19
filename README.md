@@ -20,16 +20,17 @@ sudo npm install -g gulp
 ```
 
 
-#####3 - Fork this project to Github
-#####4- Clone this project
+#####3 - Fork original project to your Github account
+#####4- Clone that project from your Github account to your local
 #####5 - cd to API and do npm install
 ```
 cd api
 npm install
 ```
 
-#####6 - cd .. then cd to app and install dependencies
+#####6 - cd to APP and do npm install and install dependencies
 ```
+cd ..
 cd app
 npm install
 bower install
